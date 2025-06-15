@@ -1,16 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: #FFECAF;
+    background-color: #000000;
     color: #5C2028;
 }
 
-.arvo-bold {
+.arvo-bold{
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.lato-regular {
+.lato-regular{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+img{
+    width: 100vw;
 }
