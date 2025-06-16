@@ -5,9 +5,8 @@
 }
 body{
     background-color: #000000;
-    color: #5C2028;
+    color: #ffffff;
 }
-
 .arvo-bold{
     font-family: "Arvo", serif;
     font-weight: 700;
@@ -22,4 +21,20 @@ body{
 
 img{
     width: 100vw;
+}
+
+main{
+    background-image: url('../img/FondoImagenParrafo.jpg');
+    width: 100vw;
+    height: 70vw;
+}
+
+footer{
+    background-image: url('../img/FondoFooter.png');
+    width: 100vw;
+    height: 20vw;
+}
+
+.pFooter{
+    padding: 10vw 10vw;
 }
