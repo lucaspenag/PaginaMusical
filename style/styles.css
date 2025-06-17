@@ -59,8 +59,6 @@ figcaption{
 main{
     padding: 25px 190px;
     grid-area: main;
-    background-image: url('../img/FondoImagenParrafo.jpg');
-    background-size: cover;
     display:grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -93,15 +91,23 @@ nav{
 }
 .sectionCanciones1{
     grid-area: section;
+    background-image: url('../img/FondoImagenParrafo.jpg');
+    background-size: cover;
 }
 .sectionCanciones2{
     grid-area: section2;
+    background-image: url('../img/FondoImagenParrafo.jpg');
+    background-size: cover;
 }
 .sectionCanciones3{
     grid-area: section3;
+    background-image: url('../img/FondoImagenParrafo.jpg');
+    background-size: cover;
 }
 .sectionCanciones4{
     grid-area: section4;
+    background-image: url('../img/FondoImagenParrafo.jpg');
+    background-size: cover;
 }
 .sectionInterno{
     display:grid;
@@ -124,7 +130,9 @@ nav{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "h3 h3"
-    "divOrquesta divOrquesta"
+    "divOrquesta divOrquesta";
+    background-image: url('../img/FondoImagenParrafo.jpg');
+    background-size: cover;
 }
 .divOrquesta{
     grid-area:divOrquesta;
@@ -183,4 +191,12 @@ nav{
     width: 30px;
     height: auto;
     display: block;
+}
+
+.bordeRedondo{
+    border-radius: 15px;
+}
+
+.h3Orquesta{
+    padding: 15px 0px;
 }
