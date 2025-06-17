@@ -14,6 +14,11 @@
     font-weight: 400;
     font-style: normal;
 }
+.centrar{
+    display:grid;
+    place-content: center;
+    text-align: center;
+}
 body{
     background-color: #000000;
     color: #ffffff;
@@ -102,9 +107,7 @@ footer{
     
 }
 
-.pCancion{
-    
-}
+
 .sectionOrquesta{
     grid-area: sectionOrquesta;
     padding: 45px 0px;
@@ -145,8 +148,11 @@ footer{
     grid-area:figure4;
 }
 
-.centrar{
-    display:grid;
-    place-content: center;
-    text-align: center;
+
+.pCancion{
+    text-align: justify;
+}
+
+.justificar{
+    text-align: justify;
 }
