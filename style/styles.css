@@ -31,21 +31,28 @@ header{
     padding: 0;
 }
 h1{
-    display:grid;
-    place-content: center;
-    text-align: center;
+    padding:0 190px;
+    font-size: 40px;
 }
 h2{
-    display:grid;
-    place-content: center;
-    text-align: center;
+    padding:0 190px;
+    font-size: 28px;
+}
+h3{
+    font-size: 22px;
+    grid-area: h3;
 }
 img{
     width: 100%;
 }
-
+figure{
+    padding: 1rem;
+}
+figcaption{
+    padding: 5px 0px;
+}
 main{
-    padding: 0px 190px;
+    padding: 25px 190px;
     grid-area: main;
     background-image: url('../img/FondoImagenParrafo.jpg');
     background-size: cover;
@@ -53,19 +60,13 @@ main{
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
+    "h3 h3"
     "section section"
     "section2 section2"
     "section3 section3"
     "section4 section4"
     "sectionOrquesta sectionOrquesta"
     "sectionVideojuego sectionVideojuego";
-}
-aside{
-    padding: 0px 0px 0px 190px;
-    grid-area: aside;
-    display:grid;
-    place-content: center;
-    text-align: center;
 }
 footer{
     grid-area: footer;
@@ -98,21 +99,28 @@ footer{
     padding:20px 0px
 }
 .divCancion{
-    display:grid;
-    place-content: center;
-    text-align: center;
+    
 }
 
 .pCancion{
-    display:grid;
-    place-content: center;
-    text-align: center;
+    
 }
 .sectionOrquesta{
     grid-area: sectionOrquesta;
+    padding: 45px 0px;
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "h3 h3"
+    "divOrquesta divOrquesta"
+}
+.divOrquesta{
+    grid-area:divOrquesta;
 }
 .sectionVideojuego{
     grid-area: sectionVideojuego;
+    padding: 45px 0px;
 }
 
 .divFotos{
@@ -135,4 +143,10 @@ footer{
 }
 .figure1{
     grid-area:figure4;
+}
+
+.centrar{
+    display:grid;
+    place-content: center;
+    text-align: center;
 }
