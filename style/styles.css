@@ -70,6 +70,8 @@ main{
     "section4 section4"
     "sectionOrquesta sectionOrquesta"
     "sectionVideojuego sectionVideojuego";
+    background-image: url('../img/FondoImagen.jpg');
+    background-size: cover;
 }
 footer{
     grid-area: footer;
@@ -91,23 +93,15 @@ nav{
 }
 .sectionCanciones1{
     grid-area: section;
-    background-image: url('../img/FondoImagenParrafo.jpg');
-    background-size: cover;
 }
 .sectionCanciones2{
     grid-area: section2;
-    background-image: url('../img/FondoImagenParrafo.jpg');
-    background-size: cover;
 }
 .sectionCanciones3{
     grid-area: section3;
-    background-image: url('../img/FondoImagenParrafo.jpg');
-    background-size: cover;
 }
 .sectionCanciones4{
     grid-area: section4;
-    background-image: url('../img/FondoImagenParrafo.jpg');
-    background-size: cover;
 }
 .sectionInterno{
     display:grid;
@@ -131,8 +125,6 @@ nav{
     grid-template-areas: 
     "h3 h3"
     "divOrquesta divOrquesta";
-    background-image: url('../img/FondoImagenParrafo.jpg');
-    background-size: cover;
 }
 .divOrquesta{
     grid-area:divOrquesta;
