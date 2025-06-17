@@ -64,6 +64,7 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "h3 h3"
+    "h3Canciones h3Canciones"
     "section section"
     "section2 section2"
     "section3 section3"
@@ -190,5 +191,10 @@ nav{
 }
 
 .h3Orquesta{
+    padding: 15px 0px;
+}
+
+.h3Canciones{
+    grid-area: h3Canciones;
     padding: 15px 0px;
 }
