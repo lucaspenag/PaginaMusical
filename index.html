@@ -7,78 +7,89 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="nav">
             <div class="imgDiv"><img class="imgNav" src="img/RDR2.png" alt=""></div>
-            <button class="botonMenu">
+            <ul>
+                <li id="lista"><button href ="#"class="botonMenu">
                 <img class ="imgButton"src="img/menu.png" alt="">
-            </button>
+                </button>
+                    <ul id="absoluta">
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#canciones">Canciones</a></li>                                         
+                        <li><a href="#escenas">Escenas</a></li>
+                        <li><a href="#orquesta">Orquesta</a></li> 
+                    </ul>
+                </li>
+            </ul>
         </nav>
         <img src="img/RDR2HEADER2.jpg" alt="Imagen Red Dead Redemption 2 header">
-        <h1 class="arvo-bold centrar">La música que le dio alma al Salvaje Oeste</h1>
+        <h1 id="home" class="arvo-bold centrar">La música que le dio alma al Salvaje Oeste</h1>
         <h2 class="arvo-bold centrar justificar">Sumérjase en una odisea sonora que narra la épica y melancólica historia del fin de una era. Desde la tensión de los atracos y la desolación de los paisajes hasta los momentos de camaradería y la cruda realidad de la redención, cada nota de esta banda sonora teje el tapiz de una América que se desvanece.</h2>
     </header>
     
     <main>
-        <h3 class="arvo-bold centrar justificar">Este concierto es una invitación a revivir la profundidad emocional de Red Dead Redemption 2 a través de su música. La orquesta dará vida a las composiciones de Woody Jackson y a las inolvidables canciones de Daniel Lanois, D'Angelo y otros artistas que prestaron su talento para crear una atmósfera inigualable.</h3>
-        <h3 class="arvo-bold centrar h3Canciones">Historias Hechas Canción</h3>
+        <h3 id="h3Main" class="arvo-bold centrar justificar">Este concierto es una invitación a revivir la profundidad emocional de Red Dead Redemption 2 a través de su música. La orquesta dará vida a las composiciones de Woody Jackson y a las inolvidables canciones de Daniel Lanois, D'Angelo y otros artistas que prestaron su talento para crear una atmósfera inigualable.</h3>
+        <h3 id="canciones" class="arvo-bold centrar h3Canciones">Historias Hechas Canción</h3>
         <section class="sectionCanciones1 sectionInterno">
         <div class="divCancion centrar">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3fJeJZlQVMCKZUw0BbPkSq?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
-        <p class="pCancion centrar lato-regular">Pura adrenalina y la justicia implacable del Oeste. Este tema es la encarnación de la venganza; una explosión de guitarras eléctricas y cuerdas trepidantes que acompañan una persecución final y catártica. Es el sonido de la determinación absoluta, de saldar todas las cuentas pendientes sin mirar atrás y de la ferocidad de un hombre que no tiene nada que perder.</p>
+        <p class="pCancion centrar arvo-regular">Pura adrenalina y la justicia implacable del Oeste. Este tema es la encarnación de la venganza; una explosión de guitarras eléctricas y cuerdas trepidantes que acompañan una persecución final y catártica. Es el sonido de la determinación absoluta, de saldar todas las cuentas pendientes sin mirar atrás y de la ferocidad de un hombre que no tiene nada que perder.</p>
         </section>
         <section class="sectionCanciones2 sectionInterno">
         <div class="divCancion centrar">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4dCijzEgPnTwOYPCT3ATcL?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
-        <p class="pCancion centrar lato-regular">El eco solitario del Salvaje Oeste y el lamento de una era perdida. Este tema instrumental es el alma sonora de la saga. Con su icónico y melancólico arpegio de guitarra, evoca la inmensidad de paisajes indómitos, la soledad del forajido y la nostalgia por un mundo que se desvanece. Es una melodía que promete aventura y peligro a partes iguales; el sonido del horizonte abierto, del honor entre ladrones y de la carga de un pasado que nunca se puede dejar atrás.</p>
+        <p class="pCancion centrar arvo-regular">El eco solitario del Salvaje Oeste y el lamento de una era perdida. Este tema instrumental es el alma sonora de la saga. Con su icónico y melancólico arpegio de guitarra, evoca la inmensidad de paisajes indómitos, la soledad del forajido y la nostalgia por un mundo que se desvanece. Es una melodía que promete aventura y peligro a partes iguales; el sonido del horizonte abierto, del honor entre ladrones y de la carga de un pasado que nunca se puede dejar atrás.</p>
         </section>
         <section class="sectionCanciones3 sectionInterno">
         <div class="divCancion centrar">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3okk47CKOqAm1TXmVPzNYf?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
-        <p class="pCancion centrar lato-regular">Un himno a la resiliencia en medio de la adversidad. Profunda y conmovedora, esta canción es el reflejo del espíritu inquebrantable de Arthur frente a la pérdida y la traición. Su ritmo constante y su letra introspectiva transmiten una sensación de fortaleza interior y lealtad a los propios principios, incluso cuando todo alrededor se desmorona. Es la calma en el ojo de la tormenta, un momento de claridad y coraje.</p>
+        <p class="pCancion centrar arvo-regular">Un himno a la resiliencia en medio de la adversidad. Profunda y conmovedora, esta canción es el reflejo del espíritu inquebrantable de Arthur frente a la pérdida y la traición. Su ritmo constante y su letra introspectiva transmiten una sensación de fortaleza interior y lealtad a los propios principios, incluso cuando todo alrededor se desmorona. Es la calma en el ojo de la tormenta, un momento de claridad y coraje.</p>
         </section>
         <section class="sectionCanciones4 sectionInterno">
         <div class="divCancion centrar">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/71tjUqsaiFFKWpn8xhoPWh?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
-        <p class="pCancion centrar lato-regular">Tensión, urgencia y el peso de un conflicto que define una era. Este tema es la crónica de una rivalidad legendaria y la desesperada lucha por la supervivencia de la banda. Con su ritmo pulsante y sus coros solemnes, la canción crea una atmósfera de peligro inminente y confrontación inevitable. Es el sonido de la lealtad puesta a prueba, de la cacería y de ser cazado, marcando los momentos de mayor dramatismo y acción de la saga.</p>
+        <p class="pCancion centrar arvo-regular">Tensión, urgencia y el peso de un conflicto que define una era. Este tema es la crónica de una rivalidad legendaria y la desesperada lucha por la supervivencia de la banda. Con su ritmo pulsante y sus coros solemnes, la canción crea una atmósfera de peligro inminente y confrontación inevitable. Es el sonido de la lealtad puesta a prueba, de la cacería y de ser cazado, marcando los momentos de mayor dramatismo y acción de la saga.</p>
         </section>
-
+        <section class="sectionVideojuego">
+            <h3 id="escenas" class="centrar arvo-bold">Las escenas que la música hizo inovidables</h3>
+            <div class="divFotos">
+                <figure>
+                    <img class="bordeRedondo" src="img/Imagen1.jpg" alt="">
+                    <figcaption class="centrar arvo-regular justificar">La estampa legendaria del Oeste. Un instante congelado en el tiempo que representa la libertad, el peligro y la profunda conexión entre el jinete y su montura, recortados contra un sol que todo lo baña.</figcaption>
+                </figure>
+                <figure>
+                    <img class="bordeRedondo" src="img/Imagen2.jpg" alt="">
+                    <figcaption class="centrar arvo-regular justificar">Es en estas pausas contemplativas donde la banda sonora brilla. Mientras el mundo se detiene, una suave melodía de guitarra parece nacer del propio paisaje, acompañando la soledad del forajido y dando voz a la inmensidad que lo rodea.</figcaption>
+                </figure>
+                <figure>
+                    <img class="bordeRedondo" src="img/Imagen3.jpg" alt="">
+                    <figcaption class="centrar arvo-regular justificar">En escenas como esta, la música abandona la melodía para convertirse en pura tensión. El ritmo implacable de la percusión se fusiona con el chapoteo de los cascos en el barro, creando una marcha sombría y llena de determinación. No es una canción de paisajes, sino el pulso de una cacería o una huida, donde cada nota de la orquesta subraya la lealtad inquebrantable y el peligro que aguarda entre la niebla.</figcaption>
+                </figure>
+                <figure>
+                    <img class="bordeRedondo" src="img/Imagen4.jpg" alt="">
+                    <figcaption class="centrar arvo-regular justificar">Aquí la banda sonora se despoja de su épica para volverse tan densa y misteriosa como la propia niebla del pantano. Las melodías se disuelven en texturas ambientales y acordes inquietantes que se mezclan con los sonidos de la naturaleza. Es la música del misterio y del peligro latente, una atmósfera sonora que te envuelve y te advierte que, en la quietud de estas aguas doradas, no todo es lo que parece.</figcaption>
+                </figure>
+            </div>
+        </section>
         <section class="sectionOrquesta centrar">
-            <h3 class="arvo-bold h3Orquesta">Donde cada nota se convierte en leyenda</h3>
+            <h3 id="orquesta" class="arvo-bold h3Orquesta">Donde cada nota se convierte en leyenda</h3>
             <div class="divOrquesta">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2uwb8u634M0?si=zn4HSYMvtCfCblVd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="sectionVideojuego">
-            <h3 class="centrar arvo-bold">Las escenas que la música hizo inmortales</h3>
-            <div class="divFotos">
-                <figure>
-                    <img class="bordeRedondo" src="img/Imagen1.jpg" alt="">
-                    <figcaption class="centrar lato-regular justificar">La estampa legendaria del Oeste. Un instante congelado en el tiempo que representa la libertad, el peligro y la profunda conexión entre el jinete y su montura, recortados contra un sol que todo lo baña.</figcaption>
-                </figure>
-                <figure>
-                    <img class="bordeRedondo" src="img/Imagen2.jpg" alt="">
-                    <figcaption class="centrar lato-regular justificar">Es en estas pausas contemplativas donde la banda sonora brilla. Mientras el mundo se detiene, una suave melodía de guitarra parece nacer del propio paisaje, acompañando la soledad del forajido y dando voz a la inmensidad que lo rodea.</figcaption>
-                </figure>
-                <figure>
-                    <img class="bordeRedondo" src="img/Imagen3.jpg" alt="">
-                    <figcaption class="centrar lato-regular justificar">En escenas como esta, la música abandona la melodía para convertirse en pura tensión. El ritmo implacable de la percusión se fusiona con el chapoteo de los cascos en el barro, creando una marcha sombría y llena de determinación. No es una canción de paisajes, sino el pulso de una cacería o una huida, donde cada nota de la orquesta subraya la lealtad inquebrantable y el peligro que aguarda entre la niebla.</figcaption>
-                </figure>
-                <figure>
-                    <img class="bordeRedondo" src="img/Imagen4.jpg" alt="">
-                    <figcaption class="centrar lato-regular justificar">Aquí la banda sonora se despoja de su épica para volverse tan densa y misteriosa como la propia niebla del pantano. Las melodías se disuelven en texturas ambientales y acordes inquietantes que se mezclan con los sonidos de la naturaleza. Es la música del misterio y del peligro latente, una atmósfera sonora que te envuelve y te advierte que, en la quietud de estas aguas doradas, no todo es lo que parece.</figcaption>
-                </figure>
-            </div>
-        </section>
+        
     </main>
-    <footer class="lato-regular">
+    <footer class="arvo-regular">
+        <a href="#nav">Volver al inicio</a>
         <p class="pFooter">Lucas Rafael Peña Gutierrez - lucas.penag@davinci.edu.ar - 2025</p>
     </footer>
 </body>
+</html>
