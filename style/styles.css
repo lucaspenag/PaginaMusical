@@ -102,6 +102,7 @@ ul{
 
 a{
     text-decoration: none;
+    color:#ffffff;
 }
 .pFooter{
     /*padding: 20vh 35vw;*/     
@@ -244,4 +245,21 @@ ul #lista:hover #absoluta{
 
 #h3Main{
     padding: 15px 0;
+}
+#aFooter{
+    display: block;
+    border-style:solid;
+    border-color: #ffffff;
+    border-radius: 12px;
+    height: 25px;
+    width: 150px;
+    justify-self: end;
+}
+
+#divFooter{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "p a"
 }
