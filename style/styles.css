@@ -41,7 +41,7 @@ header{
     padding: 0;
 }
 h1{
-    padding:15px 190px;
+    padding:65px 190px 15px 190px;
     font-size: 40px;
 }
 h2{
@@ -129,7 +129,7 @@ a{
 
 .sectionOrquesta{
     grid-area: sectionOrquesta;
-    padding: 45px 0px;
+    padding: 80px 0px;
     display:grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -239,10 +239,9 @@ ul #lista:hover #absoluta{
 }
 
 #escenas{
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 #h3Main{
-    padding: 10px 0;
+    padding: 15px 0;
 }
-
